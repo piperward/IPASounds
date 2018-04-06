@@ -14,6 +14,18 @@
 		86518E14206EA6C100970F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86518E12206EA6C100970F68 /* LaunchScreen.storyboard */; };
 		86CA2EDF20779B5A008FA5B8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA2EDE20779B5A008FA5B8 /* CategoryViewController.swift */; };
 		86CA2EE12077A362008FA5B8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA2EE02077A362008FA5B8 /* DataSource.swift */; };
+		86D179A9207802CC0047C2B9 /* k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D1799D207802CA0047C2B9 /* k.mp3 */; };
+		86D179AA207802CC0047C2B9 /* q.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D1799E207802CA0047C2B9 /* q.mp3 */; };
+		86D179AB207802CC0047C2B9 /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D1799F207802CA0047C2B9 /* b.mp3 */; };
+		86D179AC207802CC0047C2B9 /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A0207802CA0047C2B9 /* p.mp3 */; };
+		86D179AD207802CC0047C2B9 /* ɟ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A1207802CA0047C2B9 /* ɟ.mp3 */; };
+		86D179AE207802CC0047C2B9 /* ʈ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A2207802CA0047C2B9 /* ʈ.mp3 */; };
+		86D179AF207802CC0047C2B9 /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A3207802CB0047C2B9 /* d.mp3 */; };
+		86D179B0207802CC0047C2B9 /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A4207802CB0047C2B9 /* t.mp3 */; };
+		86D179B1207802CC0047C2B9 /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A5207802CB0047C2B9 /* c.mp3 */; };
+		86D179B2207802CC0047C2B9 /* ɢ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A6207802CB0047C2B9 /* ɢ.mp3 */; };
+		86D179B3207802CC0047C2B9 /* ɖ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A7207802CB0047C2B9 /* ɖ.mp3 */; };
+		86D179B4207802CC0047C2B9 /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86D179A8207802CB0047C2B9 /* g.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,18 @@
 		86518E15206EA6C100970F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86CA2EDE20779B5A008FA5B8 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		86CA2EE02077A362008FA5B8 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		86D1799D207802CA0047C2B9 /* k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = k.mp3; path = Sounds/k.mp3; sourceTree = "<group>"; };
+		86D1799E207802CA0047C2B9 /* q.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = q.mp3; path = Sounds/q.mp3; sourceTree = "<group>"; };
+		86D1799F207802CA0047C2B9 /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = b.mp3; path = Sounds/b.mp3; sourceTree = "<group>"; };
+		86D179A0207802CA0047C2B9 /* p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = p.mp3; path = Sounds/p.mp3; sourceTree = "<group>"; };
+		86D179A1207802CA0047C2B9 /* ɟ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ɟ.mp3"; path = "Sounds/ɟ.mp3"; sourceTree = "<group>"; };
+		86D179A2207802CA0047C2B9 /* ʈ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ʈ.mp3"; path = "Sounds/ʈ.mp3"; sourceTree = "<group>"; };
+		86D179A3207802CB0047C2B9 /* d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = d.mp3; path = Sounds/d.mp3; sourceTree = "<group>"; };
+		86D179A4207802CB0047C2B9 /* t.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = t.mp3; path = Sounds/t.mp3; sourceTree = "<group>"; };
+		86D179A5207802CB0047C2B9 /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = c.mp3; path = Sounds/c.mp3; sourceTree = "<group>"; };
+		86D179A6207802CB0047C2B9 /* ɢ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ɢ.mp3"; path = "Sounds/ɢ.mp3"; sourceTree = "<group>"; };
+		86D179A7207802CB0047C2B9 /* ɖ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ɖ.mp3"; path = "Sounds/ɖ.mp3"; sourceTree = "<group>"; };
+		86D179A8207802CB0047C2B9 /* g.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = g.mp3; path = Sounds/g.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +66,18 @@
 		86518DFD206EA6C100970F68 = {
 			isa = PBXGroup;
 			children = (
+				86D1799F207802CA0047C2B9 /* b.mp3 */,
+				86D179A5207802CB0047C2B9 /* c.mp3 */,
+				86D179A3207802CB0047C2B9 /* d.mp3 */,
+				86D179A7207802CB0047C2B9 /* ɖ.mp3 */,
+				86D179A8207802CB0047C2B9 /* g.mp3 */,
+				86D179A6207802CB0047C2B9 /* ɢ.mp3 */,
+				86D179A1207802CA0047C2B9 /* ɟ.mp3 */,
+				86D1799D207802CA0047C2B9 /* k.mp3 */,
+				86D179A0207802CA0047C2B9 /* p.mp3 */,
+				86D1799E207802CA0047C2B9 /* q.mp3 */,
+				86D179A4207802CB0047C2B9 /* t.mp3 */,
+				86D179A2207802CA0047C2B9 /* ʈ.mp3 */,
 				86518E08206EA6C100970F68 /* IPASoundboard */,
 				86518E07206EA6C100970F68 /* Products */,
 			);
@@ -129,6 +165,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D179A9207802CC0047C2B9 /* k.mp3 in Resources */,
+				86D179AA207802CC0047C2B9 /* q.mp3 in Resources */,
+				86D179AB207802CC0047C2B9 /* b.mp3 in Resources */,
+				86D179AC207802CC0047C2B9 /* p.mp3 in Resources */,
+				86D179AD207802CC0047C2B9 /* ɟ.mp3 in Resources */,
+				86D179AE207802CC0047C2B9 /* ʈ.mp3 in Resources */,
+				86D179AF207802CC0047C2B9 /* d.mp3 in Resources */,
+				86D179B0207802CC0047C2B9 /* t.mp3 in Resources */,
+				86D179B1207802CC0047C2B9 /* c.mp3 in Resources */,
+				86D179B2207802CC0047C2B9 /* ɢ.mp3 in Resources */,
+				86D179B3207802CC0047C2B9 /* ɖ.mp3 in Resources */,
+				86D179B4207802CC0047C2B9 /* g.mp3 in Resources */,
 				86518E14206EA6C100970F68 /* LaunchScreen.storyboard in Resources */,
 				86518E11206EA6C100970F68 /* Assets.xcassets in Resources */,
 				86518E0F206EA6C100970F68 /* Main.storyboard in Resources */,

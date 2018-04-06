@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 let textCellIdentifier = "PhonemeCell"
 
@@ -14,6 +15,7 @@ class PhonemeTableViewController: UIViewController {
 
     @IBOutlet var tableView: UITableView!
     internal var phones = ["error", "error", "error"]
+    var phonemeSound: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +41,20 @@ extension PhonemeTableViewController: UITableViewDelegate, UITableViewDataSource
         tableView.deselectRow(at: indexPath, animated: true)
         
         let row = indexPath.row
+        //let resourcePath = "\(phones[row]).mp3"
         print(phones[row])
+        
+        if let path = Bundle.main.path(forResource: phones[row], ofType:"mp3") {
+            let url = URL(fileURLWithPath: path)
+            
+            do {
+                phonemeSound = try AVAudioPlayer(contentsOf: url)
+                phonemeSound?.play()
+            } catch {
+                print("Couldn't load file")
+            }
+        }
+        
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
